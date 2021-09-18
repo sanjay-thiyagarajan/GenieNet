@@ -1,3 +1,3 @@
-from settings.base import *
+from GenieNet.settings.base import *
 
 DEBUG = False

@@ -44,7 +44,7 @@ class ConvNet(nn.Module):
             return out
 
 
-def predict(image_path):
+def predict(image_obj):
 
     INPUT_DIM = 256
 
@@ -60,7 +60,7 @@ def predict(image_path):
     pretrained_model = ConvNet(INPUT_DIM)
     pretrained_model.load_state_dict(torch.load('predictor/model/pretrained_model.pth', map_location=torch.device('cpu')))
 
-    im = Image.open(image_path)
+    im = image_obj
 
     im_preprocessed = preprocess(im)
 

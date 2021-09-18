@@ -86,10 +86,10 @@ WSGI_APPLICATION = 'GenieNet.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd8lgsropq74ae2',
-        'USER' : 'ihpmkndvbtzluy',	
-        'PASSWORD': 'eeabce91f6c6920c446bb7d4bc0ce7b9c7a14a58e009084b18b331abd46ea542',	
-        'HOST': 'ec2-107-21-10-179.compute-1.amazonaws.com',	
+        'NAME': 'd7lclps02nrglu',
+        'USER' : 'ykmdapzjskfoyg',	
+        'PASSWORD': '511f28823253a9aa405cf773b584dc1a66396b3b216168661c6ff763d725220a',	
+        'HOST': 'ec2-107-20-24-247.compute-1.amazonaws.com',	
         'PORT': '5432'
     }
 }

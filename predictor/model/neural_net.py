@@ -70,4 +70,4 @@ def predict(image_path):
 
     confidence = float(output.data[0])
     
-    return confidence
+    return confidence*100

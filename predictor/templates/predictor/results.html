@@ -1,0 +1,55 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en" style="height: 100%;">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>GenieNet</title>
+    <meta name="description" content="Deep fake detector using Deep Learning">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat+Alternates:800">
+</head>
+
+<body style="height: 100%;background: repeating-linear-gradient(114deg, rgb(50,15,13) 3%, rgb(67,47,47) 16%);">
+    <nav class="navbar navbar-light navbar-expand-md" style="opacity: 0.73;background: #8c7d7d;">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="color: rgba(255,252,252,0.9);font-weight: bold;">GenieNet</a></div>
+    </nav>
+    <div class="card" style="margin-top: 5%;margin-right: 20%;margin-left: 20%;border-radius: 13px;transform-origin: center;">
+        <div class="card-body" style="text-align: center;background: #f8e3e3;border-radius: 13px;padding: 35px;">
+            <h4 class="card-title" style="text-align: center;font-size: 37px;font-family: 'Montserrat Alternates', sans-serif;margin-top: 25px;margin-bottom: 25px;">Results</h4>
+            <div class="row">
+                <div class="col" style="padding: 10px;">
+                    <div class="card" style="border-radius: 13px;">
+                        <div class="card-body">
+                            <img src="{% static filepath %}" style="width: 90%; height: 400px;">                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col" style="padding: 10px;">
+                    <div class="card" style="border-radius: 13px;">
+                        <div class="card-body">
+                            <h4 class="card-title" style="font-size: 31px;padding: 10px;">Photographic confidence</h4>
+                            <div class="progress" style="margin-top: 20px;height: 40px;background: rgb(15,36,57);border-radius: 27px;">
+                                <div class="progress-bar" aria-valuenow="{{fake}}" aria-valuemin="0" aria-valuemax="100" style="width: {{fake}}%; padding: 5px; font-size: 20px;">{{photo}}%</div>
+                            </div>
+                            <h4 class="card-title" style="font-size: 31px;padding: 10px;">Tampered confidence</h4>
+                            <div class="progress" style="margin-top: 20px;height: 40px;background: rgb(15,36,57);border-radius: 27px;">
+                                <div class="progress-bar" aria-valuenow="{{fake}}" aria-valuemin="0" aria-valuemax="100" style="width: {{fake}}%; padding: 5px; font-size: 20px;">{{tamper}}%</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-top: 30px;margin-bottom: 30px;border-radius: 32px;">
+                        <div class="card-body" style="border-radius: 23px;background: #0f2439;">
+                            <h4 class="card-title" style="text-align: left;font-weight: bold;padding: 15px;font-size: 28px;color: rgb(223,227,231);">Comment</h4>
+                            <p style="width: 100%;font-size: 20px;color: rgb(177,181,186);">Considering the probabilities,&nbsp; your image seems to be a <b>{{status}}</b> one</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.0.0-beta3/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

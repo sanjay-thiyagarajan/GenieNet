@@ -6,6 +6,7 @@ CGI Detection using Deep Convolutional Neural Networks
 
 ### About
 <p> Computer-generated imagery (CGI) is the application of computer graphics to create or contribute to images in art, printed media, video games, simulators, computer animation and VFX in films, television programs, shorts, commercials, and videos.</p>
+
 ## Popular Tools & Techniques
 <ul> 
   <li>Photoshop</li> 

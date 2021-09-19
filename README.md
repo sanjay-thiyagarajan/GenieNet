@@ -37,4 +37,6 @@ YouTube : https://youtu.be/0jr3Uxq2tG0
 ## What's next for GenieNet
 - We have planned to improvise the accuracy of the model by collecting more samples of the photographic and computer graphic images and thinking to integrate this system with the deep fake detection algorithms for building a highly robust system of image forgery detection.
 
-### Screenshots  
+## Screenshots 
+
+<img src = " https://user-images.githubusercontent.com/70621058/133917578-3487427a-c843-48aa-a45e-1460454b9f3d.PNG " width="250px" height="175px"><img src = " https://user-images.githubusercontent.com/70621058/133918450-59b160e2-f3fb-4096-b830-ed4f0f1f9463.PNG " width="250px" height="175px"><img src = "https://user-images.githubusercontent.com/70621058/133917588-04610033-7134-4372-a0d7-67bc226918e0.PNG)" width="250px" height="175px"><img src=" https://user-images.githubusercontent.com/70621058/133917582-662d9c01-02a6-4672-814e-39626ed1ba5f.PNG " width="250px" height="175px"><img src=" https://user-images.githubusercontent.com/70621058/133917586-af29e6bb-1384-448f-a777-74fad8302d11.PNG " width="250px" height="175px"><img src=" https://user-images.githubusercontent.com/70621058/133917585-ebe0b540-f710-4abf-a526-b3ef024ed63a.PNG " width="250px" height="175px">  

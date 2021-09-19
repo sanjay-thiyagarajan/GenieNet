@@ -1,4 +1,6 @@
-# GenieNet
+# GenieNet  
+[![Build and deploy Python app to Azure Web App - genienet](https://github.com/sanjay-thiyagarajan/GenieNet/actions/workflows/master_genienet.yml/badge.svg?branch=master)](https://github.com/sanjay-thiyagarajan/GenieNet/actions/workflows/master_genienet.yml)  
+
 CGI Detection using Deep Convolutional Neural Networks
   
 -----  

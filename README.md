@@ -36,3 +36,5 @@ YouTube : https://youtu.be/0jr3Uxq2tG0
 
 ## What's next for GenieNet
 - We have planned to improvise the accuracy of the model by collecting more samples of the photographic and computer graphic images and thinking to integrate this system with the deep fake detection algorithms for building a highly robust system of image forgery detection.
+
+### Screenshots  

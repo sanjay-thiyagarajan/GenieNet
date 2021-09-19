@@ -23,6 +23,9 @@ We have constructed a convolutional neural network and trained it on multiple im
 We have deployed our web app on Microsoft Azure Cloud ensuring that it stays up stable for a long time with the efficient hosting management services of Microsoft.  
 Deployed on  - https://genienet.azurewebsites.net
 
+### Video demo  
+YouTube : https://youtu.be/0jr3Uxq2tG0
+
 ## Challenges we ran into
 - The deployment of the model into the django app took very long than expected, since we tried to run the inference on PyTorch CPU version.
 - Building the UI is also a time-consuming activity and it demanded a full-fledged work time.  

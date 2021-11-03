@@ -58,7 +58,7 @@ def predict(image_obj):
         )])
 
     pretrained_model = ConvNet(INPUT_DIM)
-    pretrained_model.load_state_dict(torch.load('predictor/model/pretrained_model.pth', map_location=torch.device('cpu')))
+    pretrained_model.load_state_dict(torch.load('predictor/model/model_pretrained.pth', map_location=torch.device('cpu')))
 
     im = image_obj
 

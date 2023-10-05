@@ -12,7 +12,7 @@ pytz==2021.1
 requests==2.26.0
 sqlparse==0.4.2
 -f https://download.pytorch.org/whl/torch_stable.html
-torch==1.9.0+cpu
+torch==1.13.1
 torchvision==0.10.0+cpu
 typing-extensions==3.10.0.2
 urllib3==1.26.6
